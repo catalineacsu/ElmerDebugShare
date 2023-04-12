@@ -1,0 +1,69 @@
+C:\SALOME-9.9.0>ElmerGrid 8 2 traceCapInSphere.unv
+
+Starting program Elmergrid
+Elmergrid reading in-line arguments
+Output will be saved to file traceCapInSphere.
+
+Elmergrid loading data:
+-----------------------
+Reading mesh from universal mesh file traceCapInSphere.unv.
+First round for allocating data
+Units dataset content is currently omitted!
+Part UID = 1
+Part name = SMESH_Mesh
+Coord system name = Global
+There are 48748 nodes in the mesh
+Element type range in mesh [202,504]
+Reordering 323619 elements with indexes up to 323619
+Allocating mesh with 48748 nodes and 323619 4-node elements in 3 dims.
+Physical index interval is [2,2]
+Group index interval is [1,8]
+Using offset 7 for physical indexes
+Second round for reading data
+Reading Coordinate system information
+Reading node coordinates
+Reading element topologies
+Reading element groups in mode 2467
+Reading 1:th group with index 1 with 13746 entities: volTrace
+Element type range in group is [504 504]
+Reading 2:th group with index 2 with 64379 entities: volDielectric
+Element type range in group is [504 504]
+Reading 3:th group with index 3 with 3564 entities: volreference
+Element type range in group is [504 504]
+Reading 4:th group with index 4 with 207279 entities: volAir
+Element type range in group is [504 504]
+Reading 5:th group with index 5 with 10992 entities: surfTrace
+Element type range in group is [303 303]
+Reading 6:th group with index 6 with 20250 entities: surfDielectric
+Element type range in group is [303 303]
+Reading 7:th group with index 7 with 5576 entities: surfReference
+Element type range in group is [303 303]
+Reading 8:th group with index 8 with 24212 entities: surfAir
+Element type range in group is [303 303]
+Moving bulk elements to boundary elements
+Leading bulk elementtype is 504
+Trailing bulk elementtype is 202
+Checking that different dimensions have unique boundary tags!
+Tag interval for boundaries: [1 9]
+No overlap, no offsets needed!
+There are 34650 (out of 323619) lower dimensional elements.
+Node 45116 belongs to maximum of 200 elements
+Found 26222 side elements that have two parents.
+Found correctly 34650 side elements.
+Parent elements were reordered up to index 288969.
+Moved 288969 elements (out of 323619) to new positions
+The Universal mesh was loaded from file traceCapInSphere.unv.
+
+Elmergrid creating and manipulating meshes:
+-------------------------------------------
+
+Elmergrid saving data with method 2:
+-------------------------------------
+Saving mesh in ElmerSolver format to directory traceCapInSphere.
+Reusing an existing directory
+Saving 48748 coordinates to mesh.nodes.
+Saving 288969 element topologies to mesh.elements.
+Saving boundary elements to mesh.boundary.
+Saving header info to mesh.header.
+Saving names info to mesh.names.
+Saving entities info to entities.sif.
